@@ -20,13 +20,13 @@ class food{
     }
  }
 
- getFoofStock(){
+ getFoodStock(){
     return this.foodStock;
  }
 
  display(){
     var x=30 , y=100;
-    this.imageMode(CENTER);
+    imageMode(CENTER);
     image(this.image,720,220,70,70);
 
     if(this.foodStock !=0){
