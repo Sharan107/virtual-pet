@@ -14,7 +14,7 @@ function setup() {
   
   foodobj=new food();
 
-  foodStock=database.ref("food");
+  foodStock=database.ref("Food");
   foodStock.on("value",readStock);
 
   dog=createSprite(800,200,150,150);
